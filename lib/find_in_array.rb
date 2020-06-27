@@ -4,7 +4,9 @@ def find_element_index(array, value_to_find)
   counter=0
   if counter<array.length
     if array[counter]==value_to_find
+      puts counter
       win=counter
+      puts win
       counter+=1
     else
       counter+=1
