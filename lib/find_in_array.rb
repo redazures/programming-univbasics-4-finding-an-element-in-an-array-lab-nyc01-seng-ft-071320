@@ -2,16 +2,8 @@ def find_element_index(array, value_to_find)
   # Add your solution here
   win=nil
   counter=0
-  if counter<array.length
-    if array[counter]==value_to_find
-      puts counter
-      win=counter
-      puts win
-      counter+=1
-    else
-      counter+=1
-      puts "nothing #{counter}"
-    end
+  while counter<array.length
+    counter+=1
   end
   win
 end
