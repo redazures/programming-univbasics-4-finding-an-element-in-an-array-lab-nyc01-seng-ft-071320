@@ -17,4 +17,4 @@ scale = [2,3,4,5]
 #   puts element==2
 #   puts scale[element]
 # end
-puts find_element_index(scale,4)
+puts find_element_index(scale,5)
